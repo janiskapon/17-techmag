@@ -1,10 +1,51 @@
 body {
-  max-width: 320px;
+  max-width: 360px;
   margin: auto;
-  background: #ddd;
+  background: #FFFFFF;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background: url(../img/bg-header.png);
+}
+
+.cta {
+  background: #11161D;
+  color: #FFFFFF;
+}
+
+.cta-light {
+  background: #FFFFFF;
+  color: #11161D
+}
+
+main {
+  background: #E6F3FF;
+  color: #000000;  
+}
+
+.section-dark {
+background: #11161D;
+}
+
+
+.section-light {
+background: #E6F3FF;
+}
+
+.section-light .cta-dark {
+  background-color: #11161D;
+  color: #FFFFFF;
+}
+
+
+footer {
+  background: #11161D;
+  color: #FFFFFF;
+}
+
